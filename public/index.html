@@ -1,0 +1,59 @@
+<!doctype html>
+<!--Formatted with Prettier-->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Open and Janky</title>
+        <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
+
+        <style>
+            body {
+                margin: 0;
+            }
+            #dev-main {
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            #over {
+                width: 80%;
+                margin: 0 auto;
+                padding: 1em;
+                height: 25vh;
+                background-color: rgba(0, 115, 203, 0.86);
+                border-radius: 10px;
+                text-align: center;
+                font-size: 32px;
+            }
+            .device {
+                font-family:
+                    "liberation mono", "/fonts/FiraCode-SemiBold.ttf",
+                    "Courier New", Courier, monospace;
+                width: 25vw;
+                display: inline-block;
+                background-color: rgba(144, 0, 213, 0.61);
+                color: black;
+                padding: 15px 32px;
+                margin: 0 5%;
+                border: 5px solid black;
+                border-radius: 15px;
+                text-align: center;
+                font-size: 32px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="dev-main">
+            <div id="over">
+                <h1>What device are you viewing on?</h1>
+                <a class="device" href="/go.html">Phone</a>
+                <a class="device" href="/home.html">Not Phone</a>
+            </div>
+        </div>
+    </body>
+</html>
