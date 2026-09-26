@@ -38,10 +38,11 @@ h3 {
     font-size: 23px;
 }
 
-h4 {
+b {
     font-family:
-        "/fonts/FiraCode-SemiBold.woff2", "/fonts/JetBrainsMono-SemiBold.woff2",
+        "/fonts/FiraCode-Bold.woff2", "/fonts/JetBrainsMono-ExtraBold.woff2",
         monospace;
+    font-weight: bold;
 }
 
 .right {
