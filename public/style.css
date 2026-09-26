@@ -1,9 +1,24 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url("/fonts/FiraCode-semiBold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "FiraCode-Bold";
+    src: url("/fonts/FiraCode-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JBMono";
+    src: url("/fonts/JetBrainsMono-SemiBold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "JBMono-Bold";
+    src: url("/fonts/JetBrainsMono-ExtraBold.woff2") format("woff2");
+}
+
 body {
     background-color: rgba(56, 145, 245, 0.7);
     color: black;
-    font-family:
-        "/fonts/FiraCode-SemiBold.woff2", "/fonts/JetBrainsMono-SemiBold.woff2",
-        "Trebuchet MS", "Arial", Sans-Serif;
+    font-family: "FiraCode", "JBMono", "Trebuchet MS", Arial, Sans-Serif;
     margin: 50px auto;
     display: flex;
     justify-content: center;
@@ -21,9 +36,7 @@ mark {
 }
 
 .title {
-    font-family:
-        "/fonts/FiraCode-SemiBold.woff2", "/fonts/JetBrainsMono-SemiBold.woff2",
-        monospace;
+    font-family: "FiraCode-Bold", "JBMono-Bold", monospace;
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
@@ -39,9 +52,7 @@ h3 {
 }
 
 b {
-    font-family:
-        "/fonts/FiraCode-Bold.woff2", "/fonts/JetBrainsMono-ExtraBold.woff2",
-        monospace;
+    font-family: "FiraCode-Bold", "JBMono-Bold", monospace;
     font-weight: bold;
 }
 
@@ -133,10 +144,6 @@ img {
     font-size: 32px;
 }
 
-#cdiscLib {
-    line-height: 1.5vh;
-}
-
 .wrapper {
     display: grid;
     gap: 10px;
@@ -182,5 +189,3 @@ img {
         }
     }
 }
-
-/*There's a lot of whitespace because I don't like text I'm focusing on to be too low on my screen.*/
