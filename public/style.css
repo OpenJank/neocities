@@ -74,6 +74,20 @@ a {
     text-decoration: none;
 }
 
+.textback,
+.nav {
+    background-color: rgba(123, 255, 70, 0.5);
+    border-radius: 32px;
+    padding: 3.5vh;
+    margin: 0 15px;
+}
+
+.pnav {
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 32px;
+    font-size: 32px;
+}
+
 #webQues {
     font-family: "Comic Sans MS", Courier, "Courier New", monospace;
     text-align: center;
@@ -121,27 +135,9 @@ img {
     text-align: center;
 }
 
-.sec {
-    text-align: center;
-}
-
 .go {
     color: crimson;
     text-decoration: underline;
-}
-
-.textback,
-.nav {
-    background-color: rgba(123, 255, 70, 0.5);
-    border-radius: 32px;
-    padding: 3.5vh;
-    margin: 0 15px;
-}
-
-.pnav {
-    background-color: rgba(211, 211, 211, 0.5);
-    border-radius: 32px;
-    font-size: 32px;
 }
 
 .wrapper {
@@ -188,4 +184,34 @@ img {
             max-width: 85%;
         }
     }
+}
+
+/* table css  template copied from 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table */
+
+table {
+    margin: 0 auto;
+    width: 40%;
+    border-collapse: seperate;
+    border: solid rgba(123, 255, 70, 0.5) 5px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: rgb(228 240 245);
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.25);
 }
