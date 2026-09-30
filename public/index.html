@@ -15,12 +15,20 @@
         <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
 
         <style>
+            @font-face {
+                font-family: "FiraCode";
+                src: url("/fonts/FiraCode-SemiBold.woff2") format("woff2");
+            }
+            @font-face {
+                font-family: "JBMono";
+                src: url("/fonts/JetBrainsMono-SemiBold.woff2") format("woff2");
+            }
             body {
                 margin: 0;
             }
             #dev-main {
-                height: 100vh;
-                width: 100vw;
+                height: 100dvh;
+                width: 100dvw;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -30,7 +38,7 @@
                 width: 80%;
                 margin: 0 auto;
                 padding: 1em;
-                height: 25vh;
+                height: 25dvh;
                 background-color: rgba(0, 115, 203, 0.86);
                 border-radius: 10px;
                 text-align: center;
@@ -38,9 +46,9 @@
             }
             .device {
                 font-family:
-                    "liberation mono", "/fonts/FiraCode-SemiBold.ttf",
-                    "Courier New", Courier, monospace;
-                width: 25vw;
+                    "liberation mono", FiraCode, JBMono, "Courier New", Courier,
+                    monospace;
+                width: 25dvw;
                 display: inline-block;
                 background-color: rgba(144, 0, 213, 0.61);
                 color: black;
