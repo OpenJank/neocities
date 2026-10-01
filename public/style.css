@@ -43,12 +43,7 @@ mark {
 }
 
 p {
-    font-size: 25px;
     line-height: 1.6;
-}
-
-h3 {
-    font-size: 23px;
 }
 
 b {
@@ -64,7 +59,6 @@ b {
     text-align: center;
 
     img {
-        min-height: 60vh;
         width: auto;
     }
 }
@@ -85,7 +79,7 @@ a {
 .pnav {
     background-color: rgba(211, 211, 211, 0.5);
     border-radius: 32px;
-    font-size: 32px;
+    font-size: 2.5em;
 }
 
 #webQues {
@@ -97,7 +91,7 @@ a {
 }
 
 img {
-    max-width: 100%;
+    max-width: 40%;
     max-height: 45vh;
     height: auto;
     margin: 0 15px 0 10px;
